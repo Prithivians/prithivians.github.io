@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body2{
+    height: 120vh;
+    
+    
+}
+
+.iconsarefun{
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 3%;
+}
+
+.icons1{
+    padding-top: 100px;
+}
+
+.icons1 a{
+    
+    align-items: center;
+    display: inline-block;
+    padding: 0px 50px;
+
+}
+
+.icons2{
+    padding-top: 100px;
+}
+
+.icons2 a{
+    
+    align-items: center;
+    display: inline-block;
+    padding: 0px 50px;
+
+}
+
+.logolol{
+    width: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contactsintext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 9%;
+    padding-top: 100px;
+}
+
+.contactsintext button{
+    padding: 6px 15px;
+    background-color: darksalmon;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+}

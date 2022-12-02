@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li,
+a,
+button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 3%;
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+.logo {
+    width: 45px;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 60px;
+}
+
+.logontitle {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    display: inline-block;
+    padding-left: 4px;
+    cursor: pointer;
+    color: darksalmon;
+    font-size: 23px;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 25px;
+
+}
+
+.navlinks li a {
+    color: mediumseagreen;
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: darksalmon;
+}
+
+.contacts button {
+    padding: 6px 15px;
+    background-color: darksalmon;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+}
+
+.contacts button:hover {
+    background-color: rgba(0, 136, 191, 0.8);
+}
+
+.backgroundlol {
+    background: rgba(0, 0, 0, 0.737) url('image.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.backgroundlol2 {
+    background: rgba(0, 0, 0, 0.7) url('image.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('background.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+.damnyorrholder p{
+    text-align: center;
+    padding-top: 90px;
+    font-family: "Open Sans";
+    color: whitesmoke;
+    padding-bottom: 100px;
+}
+
+.body {
+    padding-bottom: 100px;
+}
+
+.computer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+    
+}
+
+.head{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-decoration: none;
+    color: darksalmon;
+    padding-top: 130px;
+    justify-content: space-between;
+}
+
+
+
+.chapterslist{
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+
+.chapterslist li{
+    list-style-type: none;
+}
+
+.chapterslist li a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+.chapterslist li a:hover{
+    color: darksalmon;
+    font-size: 16.027px;
+}
+
+.computerimage{
+    padding-right: 100px;
+    padding-top: 120px;
+}
+
+.computerimage img{
+    width: 200px;
+    border: 4px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+.notes{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+
+
+
+.text-chaptername{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: mediumseagreen;
+    padding-top: 100px;
+    cursor: pointer;
+    transition: 1s ease 0s;
+}
+
+.text-chaptername:hover{
+    color: darksalmon;
+}
+
+.text-big{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 40px;
+}
+
+.text-small{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    padding-top: 13px;
+}
+
+.imageok img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.listsinparagraphs{
+    padding-left: 14px;
+    padding-top: 6px;
+}
+.listsinparagraphs li{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: whitesmoke;
+    list-style:decimal;
+    padding-top: 9px;
+    
+}
+
+.listsinparagraphs-dots{
+    padding-left:35px;
+}
+
+.listsinparagraphs-dots li{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: whitesmoke;
+    padding-top: 9px;
+}
+
+
+
